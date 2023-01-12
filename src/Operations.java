@@ -7,9 +7,10 @@ public class Operations {
     unionList();
   }
 
+  static List<Integer> listA = List.of(1, 2, 3, 4, 5, 6);
+  static List<Integer> listB = List.of(4, 5, 6, 7, 8, 9);
+
   public static void unionList() {
-    List<Integer> listA = List.of(1, 2, 3, 4, 5, 6);
-    List<Integer> listB = List.of(4, 5, 6, 7, 8, 9);
     List<Integer> result = new ArrayList<>(listA);
     result.addAll(listB);
 
